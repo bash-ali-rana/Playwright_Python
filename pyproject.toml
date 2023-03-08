@@ -1,0 +1,19 @@
+[tool.pytest.ini_options]
+markers = [
+    "asyncio: Asynchronous tests",
+    "authentication: Authentication tests",
+    "base: Base page tests",
+    "books: Books page tests",
+    "bookstore: Bookstore application tests",
+    "browser_windows: Browser Windows component tests",
+    "buttons: Buttons component tests",
+    "check_box: Check Box component tests",
+    "elements: Elements page tests",
+    "frames: Frames component tests",
+    "nested_frames: Nested Frames component tests",
+    "text_box: Text Box component tests",
+    "windows: Windows page tests"
+]
+
+[tool.black]
+line-length = 79
